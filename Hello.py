@@ -21,7 +21,7 @@ LOGGER = get_logger(__name__)
 def run():
     st.set_page_config(
         page_title="Surprise Mama",
-        page_icon="👋",
+        page_icon="🎁",
     )
 
     st.write("# Surprise Mama! 🎅🎁")
