@@ -26,7 +26,7 @@ def run():
 
     st.write("# Surprise Mama! 🎅🎁")
 
-    st.sidebar.success("Select a demo above.")
+    st.sidebar.markdown("Selecteer je cursus.")
     st.markdown('''
     Hoi Mama,\n
     Welkom bij de jouw hoog nodige spoedcursus *"Hoe moet ik **zelfstandig** met de computer omgaan?"*
