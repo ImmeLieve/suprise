@@ -26,7 +26,7 @@ def run():
 
     st.write("# Een brief van de hulp pieten 🎅🎁")
 
-    st.sidebar.markdown("Selecteer je cursus.")
+    st.sidebar.markdown("**Selecteer je cursus.**")
     st.markdown('''
     *Lieve Hanneke,*
 
@@ -64,9 +64,11 @@ def run():
     Zodat jij meer tijd hebt voor stressen over het huis, nieuwe relaties en dekens haken.\\
     Dus laten we beginnen met het leren,\\
     En jij deze onnodige IT stress kan peren.
+                
+    **Dus....**
 
-    Welkom bij de jouw hoog nodige spoedcursus *"Hoe moet ik **zelfstandig** met de computer omgaan?"*
-
+    Welkom bij de jouw hoog nodige spoedcursus *"Hoe moet ik **zelfstandig** met de computer omgaan?"*!
+    
     Deze surprise bestaat uit verschillende delen: \n
     1. Hoe werkt powerpoint? 
     2. Hoe schrijf ik een appje?
