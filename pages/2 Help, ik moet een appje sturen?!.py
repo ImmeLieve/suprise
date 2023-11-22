@@ -21,7 +21,7 @@ from streamlit.hello.utils import show_code
 
 
 
-st.set_page_config(page_title="HELP ik moet een appje sturen", page_icon="📈")
+st.set_page_config(page_title="Appje", page_icon="📈")
 st.markdown("# HELP, ik moet een appje sturen")
 st.sidebar.header("HELP, ik moet een appje sturen")
 st.write(

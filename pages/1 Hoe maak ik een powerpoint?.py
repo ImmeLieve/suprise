@@ -22,7 +22,7 @@ from streamlit.hello.utils import show_code
 
 
 
-st.set_page_config(page_title="Powerpoint maken", page_icon="📹")
+st.set_page_config(page_title="Powerpoint", page_icon="📹")
 st.markdown("# Powerpoint maken")
 st.sidebar.header("Powerpoint maken")
 st.write(
