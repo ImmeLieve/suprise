@@ -21,7 +21,7 @@ import streamlit as st
 from streamlit.hello.utils import show_code
 
 
-st.set_page_config(page_title="Eindtoets", page_icon="📊")
+st.set_page_config(page_title="Eindtoets", page_icon="🧮")
 st.markdown("# Eindtoets")
 st.sidebar.header("Eindtoets")
 st.write(
