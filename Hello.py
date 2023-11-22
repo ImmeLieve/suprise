@@ -28,7 +28,43 @@ def run():
 
     st.sidebar.markdown("Selecteer je cursus.")
     st.markdown('''
-    Hoi Mama,\n
+    Lieve mama,
+
+De hulp piet hoorde dat je de laatste tijd veel rust neemt,
+Dat vonden de sint en zijn pieten wel wat vreemd.
+Je staat namelijk niet bekend als een zen persoon.
+Hun baasje druk bezig zien zijn vonden Jut en Aug inmiddels wel gewoon.
+
+Nu is er altijd wel iemand thuis om hun aandacht te geven,
+Ze hebben al doei gezegd tegen hun rustige leven.
+Om het het nog erger te maken voor hen,
+wordt het huis nu ook verbouwd… daar gaat hun zen….
+
+Gelukkig helpen ze graag met de keuzes die gemaakt moeten worden
+Ze maken van jouw creatieve chaos een orde.
+Wat ze helaas iets te ver gaat,
+Is het geven van digitale raad.
+
+Whatsappjes, mailen en belletjes vinden ze maar raar,
+Waarom maken baasjes hun leven vrijwillig zo zwaar?
+Daarom hebben ze de pieten ingelicht,
+want elke keer als je begint over een appje klappen ze dicht.
+
+De pieten hebben lang naar het probleem gekeken,
+Maar ze snapte er ook helemaal niks van en zijn toen bij de IT piet staan smeken.
+Die keek naar het probleem, maar zag er geen…
+Maar blijkbaar was hij daarin alleen.
+
+De IT piet ging daarom dus aan de slag,
+want hij heeft maar zo veel uren in de dag.
+Een digitale tool lijkt de uitkomst,
+Die gebruikt kan worden door iemand zonder digitale afkomst.
+
+De digitale wereld moet namelijk je leven makkelijker maken,
+zodat jij meer tijd hebt voor stressen over het huis, nieuwe relaties en dekens haken.
+Dus laten we beginnen met het leren
+en jij deze onnodige IT stress kan peren.
+
     Welkom bij de jouw hoog nodige spoedcursus *"Hoe moet ik **zelfstandig** met de computer omgaan?"*
 
     Deze surprise bestaat uit verschillende delen: \n
