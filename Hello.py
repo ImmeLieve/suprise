@@ -69,21 +69,20 @@ def run():
 
     Welkom bij de jouw hoog nodige spoedcursus *"Hoe moet ik **zelfstandig** met de computer omgaan?"*!
     
-    Deze surprise bestaat uit verschillende delen: \n
-    1. Hoe werkt powerpoint? 
-    2. Hoe schrijf ik een appje?
-    3. Hoe ruim ik mijn mail op?
+    Deze surprise bestaat uit verschillende delen: 
+    1. Hoe moet ik met powerpoint maken zonder kompaan? 
+    2. Hoe schrijf ik een appje zo goed dat het gaat vervelen?
+   
+    Uiteindelijk is de bedoeling dat je zonder de hulp van de IT pieten te werk kan.
 
-    Uiteindelijk is de bedoeling dat je zonder de hulp van je lieve dochter (Imme) en je secretaris (Marc) de digitale wereld aan kan. 
-
-    Laten we beginnen met hoeveel je nu over jouw computerskills denkt: ''')
+    Laten we beginnen met hoe je skills nu zijn, wat denk je ervan?: ''')
     minimum = 1
     maximum = 10
   
     st.slider("Ik kan zelfstand een mooie powerpoint maken", minimum, maximum, key="pp")
-    st.slider("Ik kan zelfstandig een appje sturen", minimum, maximum, key="appje")
-    st.slider("Ik heb een opgeruimde mail box", minimum, maximum, key="mail")
-    st.slider("Ik heb geen moeite om zelfstandig taken uit te voeren op de computer", minimum, maximum, key="com")               
+    st.slider("Ik kan zelfstandig snel een appje aan elkaar haken", minimum, maximum, key="appje")
+    st.slider("Op de computer heb ik geen moeite met het zelfstandig uitvoeren van taken", minimum, maximum, key="com")
+          
                 
 
 if __name__ == "__main__":
