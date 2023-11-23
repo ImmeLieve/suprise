@@ -38,7 +38,7 @@ st.write(
 """
 )
 st.sidebar.markdown("**Selecteer je cursus.**")
-image = Image.open('/workspaces/suprise/lege_powerpoint.png')
+image = Image.open('./lege_powerpoint.png')
 st.image(image)
 on = st.toggle('*Activeer alleen als de powerpoint is goedgekeurd*')
 
