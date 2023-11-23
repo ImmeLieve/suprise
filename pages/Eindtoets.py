@@ -31,7 +31,7 @@ def show_question():
         submit_button = st.button("Submit", key = str(question))
         if submit_button:
             check_answer(selected_choice)
-            st.session_state.show_question = False
+            #st.session_state.show_question = False
 
 # Function to check the selected answer and provide feedback
 def check_answer(selected_choice):
@@ -52,8 +52,12 @@ def next_question():
             st.session_state.current_question = current_question 
             show_question()
         else:
-            st.success("Klaar met de quiz! Je score is: {}/{}".format(st.session_state.score, len(quiz_data)))
-
+            st.session_state.show_question = False
+            end_score()
+            
+def end_score():
+        end_score = st.session_state.score
+        st.success("Klaar met de quiz! Je score is: {}/{}".format(end_score, len(quiz_data)))
     # Main function - initialising the 3 session state variables.
 def main():
         if 'current_question' not in st.session_state:
@@ -64,9 +68,9 @@ def main():
             st.session_state.show_question = True
 
         if st.session_state.show_question:
-            show_question()
+             show_question()
         else:
-            next_question()
+             end_score()
 
 if __name__ == "__main__":
         main()
