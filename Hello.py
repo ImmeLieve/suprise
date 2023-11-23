@@ -79,7 +79,7 @@ def run():
     minimum = 1
     maximum = 10
   
-    st.slider("Ik kan zelfstand een mooie powerpoint maken", minimum, maximum, key="pp")
+    st.slider("Ik kan zelfstandig een mooie powerpoint maken", minimum, maximum, key="pp")
     st.slider("Ik kan zelfstandig snel een appje aan elkaar haken", minimum, maximum, key="appje")
     st.slider("Op de computer heb ik geen moeite met het zelfstandig uitvoeren van taken", minimum, maximum, key="com")
           
