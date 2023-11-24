@@ -60,6 +60,12 @@ def end_score():
         st.success("Klaar met de quiz! Je score is: {}/{}".format(end_score, len(quiz_data)))
     # Main function - initialising the 3 session state variables.
 def main():
+        st.write("""
+            Wat ziet de presentatie er mooi uit! \\
+            Je vraagt je natuurlijk nu af wat de volgende stap is.\\
+            Dat is natuurlijk een leuke quiz!! \\
+            Die hopelijk je grote kennis aanduid...
+             """)
         if 'current_question' not in st.session_state:
             st.session_state.current_question = 0 
         if 'score' not in st.session_state:
