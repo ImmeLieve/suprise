@@ -28,7 +28,7 @@ def show_question():
         question = quiz_data[st.session_state.current_question] 
         st.write(question['question']) # Selects the question within the dictionary being accessed by previous line within the quiz_data list.
         selected_choice = st.radio("Selecteer het juiste antwoord:", question['choices']) 
-        submit_button = st.button("Submit", key = str(question))
+        submit_button = st.button("Lever in", key = str(question))
         if submit_button:
             check_answer(selected_choice)
             #st.session_state.show_question = False
