@@ -37,12 +37,12 @@ def show_question():
 def check_answer(selected_choice):
         question = quiz_data[st.session_state.current_question]
         if selected_choice == question["answer"]:
-            st.write("Correct!")
+            st.write("Juist!")
             st.balloons()
             st.session_state.score += 1
         else:
-            st.write("Incorrect!")
-            st.write("The correct answer was:", question["answer"])
+            st.write("Fout!")
+            st.write("Het juiste antwoord was:", question["answer"])
         next_question()
 
     # function to move onto the next question
@@ -66,6 +66,7 @@ def main():
             Dat is natuurlijk een leuke quiz!! \\
             Die hopelijk je grote kennis aanduid...
              """)
+        st.warning('Helaas is de rijm piet nu een beetje moe, dus de rijmen eindigen "noe"!', icon="⚠️")
         if 'current_question' not in st.session_state:
             st.session_state.current_question = 0 
         if 'score' not in st.session_state:

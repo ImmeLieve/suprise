@@ -1,23 +1,20 @@
 import streamlit as st
 
 quiz_data = [
-    {"question": "1. What is the purpose of pile probing?",
+    {"question": "1. Is een appje hetzelfde als een mailtje?",
 "choices": [
-"To save money",
-"To check for potential voids in proposed pile location",
-"To check the conditions of the surrounding soil",
-"To ensure they have been installed correctly"
+"Ja, daarom moet ik er net zoveel overnadenken",
+"Ja, daarom moet het perfect zijn",
+"Nee, want het is een appje en geen mail"
 ],
-"answer": "To check for potential voids in proposed pile location"
+"answer": "Nee, want het is een appje en geen mail"
 },
 {
-"question": "2. How does a pile integrity test work?",
+"question": "2. Ik kan nu zelfstandig een hele mooie powerpoint maken",
 "choices": [
-"Through electromagnetic waves",
-"By breaking a small piece of the concrete poured",
-"Through engineering calculations",
-"Sending stress waves through the pile using a hand-held device or sensor"
+"Ja natuurlijk, dit was echt een goede cursus",
+"Nee, de cursus was niet goed genoeg",
 ],
-"answer": "d) Sending stress waves through the pile using a hand-held device or sensor"
+"answer": "*Deze cursus was perfect, hoe durf je negatief te zijn. Misschien moet je de cursus nog een keer doen?*"
 }
 ]
