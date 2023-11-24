@@ -24,6 +24,8 @@ from PIL import Image
 st.set_page_config(page_title="Powerpoint", page_icon="💻")
 
 st.markdown("# Powerpoint maken")
+image2 = Image.open('./sinterklaaslaptop.jpeg')
+st.image(image2)
 st.write(
     """ Na je welverdiende rust, moet je weer vele powerpoints maken,\\
     Als kunstdocent bruis je natuurlijk met veel creatieve ideeën.\\
@@ -38,6 +40,8 @@ st.write(
 """
 )
 st.sidebar.markdown("**Selecteer je cursus.**")
+image2 = Image.open('./sinterklaas 1.jpeg')
+st.sidebar.image(image2)
 image = Image.open('./lege_powerpoint.png')
 st.image(image)
 on = st.toggle('*Stap 2: Activeer alleen als de powerpoint is goedgekeurd*', key='1')
