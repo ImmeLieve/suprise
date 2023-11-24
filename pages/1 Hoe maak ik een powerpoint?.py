@@ -24,8 +24,7 @@ from PIL import Image
 st.set_page_config(page_title="Powerpoint", page_icon="💻")
 
 st.markdown("# Powerpoint maken")
-image2 = Image.open('./sinterklaaslaptop.jpeg')
-st.image(image2)
+
 st.write(
     """ Na je welverdiende rust, moet je weer vele powerpoints maken,\\
     Als kunstdocent bruis je natuurlijk met veel creatieve ideeën.\\
@@ -65,6 +64,8 @@ if on:
         "Schrijf je antwoord hier 👇",)
 on1 = st.toggle('*Stap 3: Activeer alleen als je je powerpoint hebt opgeslagen*', key='2')
 if on1:
+    image2 = Image.open('./sinterklaaslaptop.jpeg')
+    st.image(image2)
     st.write("""
             Hopelijk heb je je powerpoint goed opgeslagen. \\
             Het juiste antwoord was: *Archief > Opslaan als...* \\
@@ -84,5 +85,7 @@ if on2:
             Selecteer nu de volgende cursus in het menu aan de linkerkant, \\
             Dan is er helemaal niks aan de hand. 
              """)
+    image2 = Image.open('./appjesinterklaas.jpeg')
+    st.image(image2)
 
     
