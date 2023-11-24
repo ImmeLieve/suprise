@@ -61,7 +61,7 @@ def end_score():
     # Main function - initialising the 3 session state variables.
 def main():
         st.write("""
-            Wat ziet de presentatie er mooi uit! \\
+            Je kan nu goed appen en wat ziet de presentatie er mooi uit! \\
             Je vraagt je natuurlijk nu af wat de volgende stap is.\\
             Dat is natuurlijk een leuke quiz!! \\
             Die hopelijk je grote kennis aanduid...
