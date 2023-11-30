@@ -52,7 +52,7 @@ st.warning('Je mag absoluut geen hulp krijgen, de pieten kijken mee!!', icon="âš
 st.info("Er zijn regels: \n 1. Wees snel. \n 2. Denk niet veel na. \n 3. Het is een appje, en geen mail. Wees kort en bondig.")
 image = Image.open('./peer.png')
 
-on = st.toggle('*Stap 1: Activeer de sint wilt helpen met de appjes!*', key='2')
+on = st.toggle('*Stap 1: Activeer als je de sint wilt helpen met de appjes!*', key='2')
 if on:
     st.write(""" Vele appjes komen binnen per dag, \\
          Waar jij er nu een paar van beantwoorden mag.\\
