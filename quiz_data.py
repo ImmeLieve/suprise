@@ -15,6 +15,6 @@ quiz_data = [
 "Ja natuurlijk, dit was echt een goede cursus",
 "Nee, de cursus was niet goed genoeg",
 ],
-"answer": "*Deze cursus was perfect, hoe durf je negatief te zijn. Misschien moet je de cursus nog een keer doen?*"
+"answer": "Ja natuurlijk, dit was echt een goede cursus"
 }
 ]
