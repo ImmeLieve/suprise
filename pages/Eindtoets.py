@@ -58,7 +58,7 @@ def next_question():
 def end_score():
         end_score = st.session_state.score
         st.success("Klaar met de quiz! Je score is: {}/{}".format(end_score, len(quiz_data)))
-        st.write("Ja het heeft zeker iets te maken met je cadeau! Nu je straks veel meer vrije tijd hebt doordat je digitale skills zo erg verbeterd zijn, is het tijd voor een nieuwe hobby! \n Je mag nu je cadeau openen!")
+        st.info('Ja het heeft zeker iets te maken met je cadeau! Nu je straks veel meer vrije tijd hebt doordat je digitale skills zo erg verbeterd zijn, is het tijd voor een nieuwe hobby! \n Je mag nu je cadeau openen!', icon='🎉')
     # Main function - initialising the 3 session state variables.
 def main():
         st.write("""
