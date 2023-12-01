@@ -16,7 +16,7 @@ quiz_data = [
 "Nee, de cursus was niet goed genoeg"
 ],
 "answer": "Ja natuurlijk, dit was echt een goede cursus"
-}
+},
 {
 "question": "3. Als ik een mailtje of een appje moet sturen, wie vraag ik om hulp?",
 "choices": [
@@ -26,7 +26,7 @@ quiz_data = [
 "Peer want die is vaak thuis."
 ],
 "answer": "Niemand, want ik kan het zelf"
-}
+},
 {
 "question": "4. Wat ga je nu doen met al deze extra tijd?",
 "choices": [
@@ -36,7 +36,7 @@ quiz_data = [
 "Roddelen over al de nieuwe (bijna) rela's in de familie."
 ],
 "answer": "Een nieuwe hobby krijgen"
-}
+},
 {
 "question": "5. Wat gaat deze nieuwe hobby zijn?",
 "choices": [
