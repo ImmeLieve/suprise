@@ -14,7 +14,7 @@
 
 import streamlit as st
 from streamlit.logger import get_logger
-
+from PIL import Image
 LOGGER = get_logger(__name__)
 
 
@@ -25,7 +25,8 @@ def run():
     )
 
     st.write("# Een brief van de hulp pieten 🎅🎁")
-
+    image = Image.open('./duim.jpeg')
+    st.image(image, width=300)
     st.sidebar.markdown("**Selecteer je cursus.**")
     st.markdown('''
     *Lieve Hanneke,*
@@ -76,6 +77,8 @@ def run():
     Uiteindelijk is de bedoeling dat je zonder de hulp van de IT pieten te werk kan.
 
     Laten we beginnen met hoe je skills nu zijn, wat denk je ervan?: ''')
+    image = Image.open('./selfie.jpeg')
+    st.image(image, width=300)
     minimum = 1
     maximum = 10
   

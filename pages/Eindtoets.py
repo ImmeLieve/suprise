@@ -16,6 +16,7 @@ from urllib.error import URLError
 
 import altair as alt
 import pandas as pd
+from PIL import Image
 
 import streamlit as st
 from streamlit.hello.utils import show_code
@@ -68,6 +69,8 @@ def main():
             Dat is natuurlijk een leuke quiz!! \\
             Die hopelijk je grote kennis aanduid...
              """)
+        image = Image.open('./sintlaptop.jpeg')
+        st.image(image, width=300)
         st.warning('Helaas is de rijm piet nu een beetje moe, dus de rijmen eindigen "noe"!', icon="⚠️")
         if 'current_question' not in st.session_state:
             st.session_state.current_question = 0 
