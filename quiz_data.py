@@ -25,17 +25,17 @@ quiz_data = [
 "Niemand, want ik kan het zelf.",
 "Peer want die is vaak thuis."
 ],
-"answer": "Niemand, want ik kan het zelf"
+"answer": "Niemand, want ik kan het zelf."
 },
 {
 "question": "4. Wat ga je nu doen met al deze extra tijd?",
 "choices": [
 "Stressen over appjes en mailtjes schrijven.",
-"Een nieuwe hobby krijgen",
+"Een nieuwe hobby krijgen.",
 "Nog een deken haken!",
 "Roddelen over al de nieuwe (bijna) rela's in de familie."
 ],
-"answer": "Een nieuwe hobby krijgen"
+"answer": "Een nieuwe hobby krijgen."
 },
 {
 "question": "5. Wat gaat deze nieuwe hobby zijn?",
